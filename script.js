@@ -23,7 +23,7 @@ locationBtn.addEventListener("click", () =>{
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
     }else{
-        alert("Your browser not support geolocation api");
+        alert("El navegador no soporta geolocalizacion");
     }
 });
 
