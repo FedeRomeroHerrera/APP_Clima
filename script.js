@@ -20,7 +20,7 @@ inputField.addEventListener("keyup", e =>{
 });
 
 locationBtn.addEventListener("click", () =>{
-    if(navigator.geolocation){ // if browser support geolocation api
+    if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
     }else{
         alert("Your browser not support geolocation api");
